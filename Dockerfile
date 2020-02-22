@@ -1,5 +1,5 @@
 FROM nginx
-MAINTAINER Sid`
+MAINTAINER Sid
 
 RUN apt-get update && \
     apt-get install -y sudo &&\
@@ -20,4 +20,3 @@ RUN mkdocs build
 USER essay
 
 CMD sudo service nginx start && sleep infinity
-
