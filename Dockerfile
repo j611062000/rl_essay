@@ -1,5 +1,5 @@
 FROM nginx
-MAINTAINER Sid
+MAINTAINER Sid.Lin
 
 RUN apt-get update && \
     apt-get install -y sudo &&\
